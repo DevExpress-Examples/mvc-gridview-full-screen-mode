@@ -1,0 +1,38 @@
+﻿@Html.DevExpress().GridView(settings => {
+    settings.Name = "grid";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "TypedListDataBindingPartial" };
+
+    settings.KeyFieldName = "ID";
+
+    settings.Columns.Add("ID");
+    settings.Columns.Add("Text");
+    settings.Columns.Add("Quantity");
+    settings.Columns.Add("Price");
+
+    settings.ClientSideEvents.Init = "OnInit";
+    settings.ClientSideEvents.EndCallback = "OnEndCallback";
+
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.Settings.ShowVerticalScrollBar = true;
+
+    settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+    
+    /*Unbound Columns*/
+    settings.Columns.Add(unboundColumn => {
+        unboundColumn.FieldName = "UniqueFieldName";
+        unboundColumn.UnboundType = DevExpress.Data.UnboundColumnType.Decimal;
+    });
+    /**/
+
+    /*Unbound Column Calculating*/
+    settings.CustomUnboundColumnData = (sender, e) => {
+        if(e.Column.FieldName == "UniqueFieldName") {
+            int quantity = Convert.ToInt32(e.GetListSourceFieldValue("Quantity"));
+            decimal price = (decimal)e.GetListSourceFieldValue("Price");
+
+            e.Value = quantity * price;
+        }
+    };
+    /**/
+
+}).Bind(Model).GetHtml()
