@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+* [Model.cs](./CS/CS/Models/Model.cs) (VB: [Model.vb](./VB/Models/Model.vb))
+* [Index.cshtml](./CS/CS/Views/Home/Index.cshtml)
+* [TypedListDataBindingPartial.cshtml](./CS/CS/Views/Home/TypedListDataBindingPartial.cshtml)
+* [_Layout.cshtml](./CS/CS/Views/Shared/_Layout.cshtml)
+<!-- default file list end -->
 # How to use the GridView extension in a Full Screen mode (100% browser Width and Height)
 
 
