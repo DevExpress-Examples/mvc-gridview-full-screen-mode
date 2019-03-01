@@ -18,12 +18,6 @@ body, html
     padding: 0;
     margin: 0;
 }
-
-
-
-
-
-
 ```
 
 <p>Main View: </p>
@@ -61,11 +55,9 @@ body, html
      settings.ClientSideEvents.EndCallback = "OnEndCallback";
     ...
     settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
-    settings.Settings.ShowVerticalScrollBar = true;
+    settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
     settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
 }).Bind(Model).GetHtml()
-
-
 ```
 
 <p><strong>See Also:</strong><br />
