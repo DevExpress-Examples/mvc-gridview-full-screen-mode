@@ -6,12 +6,12 @@
             AdjustSize();
         });
     }
-    functionOnEndCallback(s, e) {
+    function OnEndCallback(s, e) {
         AdjustSize();
     }
     function AdjustSize() {
         var height = document.documentElement.clientHeight;
-        grid.SetHeight(height);
+        GridView.SetHeight(height);
     }
 </script>
-@Html.Partial("TypedListDataBindingPartial", Model)
+@Html.Partial("GridViewPartialView", Model)
