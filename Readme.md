@@ -39,8 +39,11 @@ body, html
 @Html.DevExpress().GridView(Sub(settings)
        settings.Name = "grid"
        settings.ClientSideEvents.Init = "OnInit"
-       settings.ClientSideEvents.EndCallback = "OnEndCallback"                          settings.Width = System.Web.UI.WebControls.Unit.Percentage(100)
-       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible                  settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords                   ...
+       settings.ClientSideEvents.EndCallback = "OnEndCallback"                          
+       settings.Width = System.Web.UI.WebControls.Unit.Percentage(100)
+       settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible                  
+       settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords                   
+       ...
 End Sub).Bind(Model).GetHtml()
 ```
 3) Set control height on the client side with the [**MVCxClientGridView.SetHeight**](https://documentation.devexpress.com/AspNet/DevExpress.Web.Scripts.ASPxClientControl.SetHeight.method) method. Call this method in the client-side **Init** and **EndCallback** event handlers.
