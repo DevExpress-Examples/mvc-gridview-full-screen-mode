@@ -3,11 +3,8 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET MVC - How to display the Grid View in the full screen mode (100% width and height)
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/100/)**
-<!-- run online end -->
 
-This example demonstrates how to set the size of the [Grid View](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) extension to the size of the browser window.
+This example demonstrates how to adjust the size of the [Grid View](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) extension to the size of the browser window.
 
 ![Full screen grid](full-screen-grid.png)
 
@@ -53,19 +50,19 @@ Handle the Grid View extension's [Init](https://docs.devexpress.com/AspNet/DevEx
 ```
 
 ```js
-    function OnInit(s, e) {
+function OnInit(s, e) {
+    AdjustSize();
+    ASPxClientUtils.AttachEventToElement(window, "resize", function (evt) {
         AdjustSize();
-        ASPxClientUtils.AttachEventToElement(window, "resize", function (evt) {
-            AdjustSize();
-        });
-    }
-    function OnEndCallback(s, e) {
-        AdjustSize();
-    }
-    function AdjustSize() {
-        var height = document.documentElement.clientHeight;
-        grid.SetHeight(height);
-    }
+    });
+}
+function OnEndCallback(s, e) {
+    AdjustSize();
+}
+function AdjustSize() {
+    var height = document.documentElement.clientHeight;
+    grid.SetHeight(height);
+}
 ```
 
 ## Files to Review
