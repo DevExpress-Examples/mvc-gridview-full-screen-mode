@@ -67,11 +67,11 @@ function AdjustSize() {
 
 ## Files to Review
 
-* [HomeController.cs](./CS/CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/VB/Controllers/HomeController.vb))
-* [Model.cs](./CS/CS/Models/Model.cs) (VB: [Model.vb](./VB/VB/Models/Model.vb))
-* [Index.cshtml](./CS/CS/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/VB/Views/Home/Index.vbhtml))
-* [TypedListDataBindingPartial.cshtml](./CS/CS/Views/Home/TypedListDataBindingPartial.cshtml) (VB: [GridViewPartialView.vbhtml](./VB/VB/Views/Home/GridViewPartialView.vbhtml))
-* [_Layout.cshtml](./CS/CS/Views/Shared/_Layout.cshtml) (VB: [_rootLayout.vbhtml](./VB/VB/Views/Shared/_rootLayout.vbhtml))
+* [HomeController.cs](./CS/CS/Controllers/HomeController.cs) ([HomeController.vb](./VB/VB/Controllers/HomeController.vb))
+* [Model.cs](./CS/CS/Models/Model.cs) ([Model.vb](./VB/VB/Models/Model.vb))
+* [Index.cshtml](./CS/CS/Views/Home/Index.cshtml) ([Index.vbhtml](./VB/VB/Views/Home/Index.vbhtml))
+* [TypedListDataBindingPartial.cshtml](./CS/CS/Views/Home/TypedListDataBindingPartial.cshtml) ([GridViewPartialView.vbhtml](./VB/VB/Views/Home/GridViewPartialView.vbhtml))
+* [_Layout.cshtml](./CS/CS/Views/Shared/_Layout.cshtml) ([_rootLayout.vbhtml](./VB/VB/Views/Shared/_rootLayout.vbhtml))
 
 ## Documentation
 
