@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830635)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Grid View for ASP.NET MVC - How to display the Grid View in the full screen mode (100% width and height)
+# Grid View for ASP.NET MVC - How to display the Grid View in full screen mode (100% width and height)
 
 This example demonstrates how to adjust the size of the [Grid View](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) extension to the size of the browser window.
 
@@ -10,7 +10,7 @@ This example demonstrates how to adjust the size of the [Grid View](https://docs
 
 ## Overview
 
-Follow the steps below to display the [GridViewExtension](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.GridViewExtension) in the full screen mode.
+Follow the steps below to display the [GridViewExtension](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.GridViewExtension) in full screen mode.
 
 ### 1. Remove Margins
 
