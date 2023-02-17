@@ -14,7 +14,7 @@
 <!-- default file list end -->
 # How to use the GridView extension in a Full Screen mode (100% browser Width and Height)
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/100/)**
+**[[Run Online]](https://codecentral.devexpress.com/128551978/)**
 <!-- run online end -->
 
 
