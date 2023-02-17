@@ -4,6 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET MVC - How to display the Grid View in full screen mode (100% width and height)
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/128551978/)**
+<!-- run online end -->
 
 This example demonstrates how to adjust the size of the [Grid View](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) extension to the size of the browser window.
 
