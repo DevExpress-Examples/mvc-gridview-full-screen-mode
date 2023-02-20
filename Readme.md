@@ -18,7 +18,7 @@
 <!-- run online end -->
 
 
-<p>This example is based on recommendations from the <a href="https://www.devexpress.com/Support/Center/p/E3940">E3940: How to use the ASPxPageControl control in a Full Screen mode (100% browser Width and Height)</a> Code Central example. </p><p>It illustrates how to use this technique in an ASP.NET MVC application and resize a DevExpress ASP.NET MVC extension (for example, GridView) to occupy the entire browser window (a Full Screen mode):</p><p>/Views/Shared/_Layout.cshtml:</p>
+<p>This example illustrates how to resize a DevExpress ASP.NET MVC extension (for example, GridView) to occupy the entire browser window (a Full Screen mode):</p><p>/Views/Shared/_Layout.cshtml:</p>
 
 ```css
 body, html
