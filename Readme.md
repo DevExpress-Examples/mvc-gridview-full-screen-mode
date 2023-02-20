@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [HomeController.cs](./CS/CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
-* [Model.cs](./CS/CS/Models/Model.cs) (VB: [Model.vb](./VB/Models/Model.vb))
+* [HomeController.cs](./CS/CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/CS/Controllers/HomeController.vb))
+* [Model.cs](./CS/CS/Models/Model.cs) (VB: [Model.vb](./VB/CS/Models/Model.vb))
 * [Index.cshtml](./CS/CS/Views/Home/Index.cshtml)
 * [TypedListDataBindingPartial.cshtml](./CS/CS/Views/Home/TypedListDataBindingPartial.cshtml)
 * [_Layout.cshtml](./CS/CS/Views/Shared/_Layout.cshtml)
