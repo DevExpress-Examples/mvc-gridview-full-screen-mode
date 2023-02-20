@@ -77,8 +77,7 @@ body, html
 ```
 
 <p><strong>See Also:</strong><br />
-<a href="https://www.devexpress.com/Support/Center/p/E1081">E1081: How to use the ASPxGridView control (with the enabled vertical scrollbar) in a Full Screen mode (100% browser Width and Height)</a><br />
-<a href="https://www.devexpress.com/Support/Center/p/E3940">E3940: How to use the ASPxPageControl control in a Full Screen mode (100% browser Width and Height)</a></p>
+<a href="https://www.devexpress.com/Support/Center/p/E1081">E1081: How to use the ASPxGridView control (with the enabled vertical scrollbar) in a Full Screen mode (100% browser Width and Height)</a><br /></p>
 
 <br/>
 
