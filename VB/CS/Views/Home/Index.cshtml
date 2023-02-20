@@ -1,4 +1,4 @@
-@ModelType System.Collections.IEnumerable
+@model System.Collections.IEnumerable
 <script type="text/javascript">
     function OnInit(s, e) {
         AdjustSize();
@@ -6,7 +6,7 @@
             AdjustSize();
         });
     }
-    functionOnEndCallback(s, e) {
+    function OnEndCallback(s, e) {
         AdjustSize();
     }
     function AdjustSize() {
