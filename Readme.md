@@ -13,9 +13,6 @@
 * [_Layout.cshtml](./CS/CS/Views/Shared/_Layout.cshtml)
 <!-- default file list end -->
 # How to use the GridView extension in a Full Screen mode (100% browser Width and Height)
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128551978/)**
-<!-- run online end -->
 
 
 <p>This example illustrates how to resize a DevExpress ASP.NET MVC extension (for example, GridView) to occupy the entire browser window (a Full Screen mode):</p><p>/Views/Shared/_Layout.cshtml:</p>
